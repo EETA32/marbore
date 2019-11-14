@@ -22,7 +22,7 @@ El software brindará las siguientes funcionalidades:
 
 Para el desarrollo del proyecto se utiliza software y hardware libre.
 Para las pruebas de sensores se utiliza arduino. Para el prototipo se
-utiliza la plataforma de desarrollo [EDU-CIAA](Computadora Industrial Abierta Argentina).
+utiliza la plataforma de desarrollo [EDU-CIAA](http://www.proyecto-ciaa.com.ar/devwiki/doku.php?id=desarrollo:edu-ciaa:edu-ciaa-nxp).
 Se utiliza un [paquete de herramientas](https://github.com/ciaa/software) listas para usar para la 
 programación de las plataformas del Proyeto CIAA.
 Se utiliza el [Firmware V3](https://github.com/ciaa/firmware_v3).
