@@ -1,6 +1,3 @@
-# marbore
-Instrumentación y control para banco de prueba de motores Marboré EETA-32
-
 Instrumentación y control para banco de prueba de motores Marboré EETA-32
 =========================================================================
 
