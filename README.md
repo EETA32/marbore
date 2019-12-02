@@ -6,8 +6,8 @@ de la E.E.T.A. 32 consiste esencialmente en el prototipo preliminar de
 un equipo capaz de monitorear y controlar parámetros de funcionamiento 
 de motores Marboré VI-J.
 
-Funciones del Producto
-----------------------
+Funcionalidades del Producto
+----------------------------
 
 El software brindará las siguientes funcionalidades:
 + Medición de Temperatura de tobera
