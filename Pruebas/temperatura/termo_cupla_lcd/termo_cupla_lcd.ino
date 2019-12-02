@@ -1,8 +1,10 @@
-/* Copyright 2019, Gustavo Rostan, Miguel del Valle
+/* Copyright 2019, EETA 32 Prácticas Profesionalizantes
+ * 
+ * Alumno: Altamirano, Iván Alexis  
  *
  * All rights reserved.
  *
- * This file is part of sAPI Library.
+ * This file is part of "Proyecto Marbore".
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are met:
