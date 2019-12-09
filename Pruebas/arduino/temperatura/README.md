@@ -1,4 +1,4 @@
-                        ------------------------------
+                      
                        #SENSOR DE TEMPERATURA CON LCD
                      ---------------------------------
    ##SKETCH PARA MEDIR TEMPERATURA CON TERMOPAR Y MAX6675. MUESTRA EL RESULTADO  DE LA MEDICION EN EL MONITOR SERIAL DE ARDUINO Y ADEMÁS LO DESPLIEGA EN UNA
@@ -27,12 +27,17 @@ MAX6675 thermocouple(CONFIG_TCSCK_PIN, CONFIG_TCCS_PIN, CONFIG_TCDO_PIN);
 
  ### // IMPRIMR MENSAJE INICIAL A LA TERMINAL
   Serial.println(F("---------------------------------"));
+  
   Serial.println(F("LA PEOR MISERIA ES CAER EN LA MODORRA DE"));
+  
   Serial.println(F("NO HACER NADA PARA SALIR DE ELLA"));
+  
   Serial.println(F("---------------------------------"));
 
   // USAR PINES DE ARDUINO PARA ALIMENTAR EL MODULO MAX6675
+  
   pinMode(CONFIG_TCVCC_PIN, OUTPUT); digitalWrite(CONFIG_TCVCC_PIN, HIGH);
+  
   pinMode(CONFIG_TCGND_PIN, OUTPUT); digitalWrite(CONFIG_TCGND_PIN, LOW);
 
   // INDICAMOS QUE TENEMOS CONECTADA UNA PANTALLA DE 16X2
