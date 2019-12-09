@@ -1,10 +1,10 @@
                       
-                       #SENSOR DE TEMPERATURA CON LCD
-                     ---------------------------------
+  ###SENSOR DE TEMPERATURA CON LCD
+                   
    ##SKETCH PARA MEDIR TEMPERATURA CON TERMOPAR Y MAX6675. MUESTRA EL RESULTADO  DE LA MEDICION EN EL MONITOR SERIAL DE ARDUINO Y ADEMÁS LO DESPLIEGA EN UNA
    PANTALLA LCD DE 16X2.
    ###ESTE EJEMPLO USA LA LIBRERIA PARA EL MAX6675 DE ADAFRUIT.
-**/
+*/
 #include "LiquidCrystal.h"
 #include "max6675.h"
 
@@ -21,7 +21,7 @@ LiquidCrystal lcd(7 ,6 ,5 ,4 ,3 ,2 );// (rs, enable, d4, d5, d6, d7)
 // OBJETO UTILIZADO PARA LA COMUNICACION CON EL MAX6675
 MAX6675 thermocouple(CONFIG_TCSCK_PIN, CONFIG_TCCS_PIN, CONFIG_TCDO_PIN);
 
-*void setup() {
+void setup() {
   // PREPARAR LA INTERFAZ SERIAL
   *Serial.begin(9600);
 
@@ -52,7 +52,7 @@ MAX6675 thermocouple(CONFIG_TCSCK_PIN, CONFIG_TCCS_PIN, CONFIG_TCDO_PIN);
   delay(4000);
 }
 
-*void loop() {
+void loop() {
  ### // LEER EL TERMOPAR Y ALMACENAR EL VALOR EN UNA VARIABLE
   double t = thermocouple.readCelsius();
 
